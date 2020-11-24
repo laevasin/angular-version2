@@ -1,0 +1,5 @@
+<ul>
+	<li *ngFor="let links of links">
+		<a *ngIf="links.isShow" [href]="links.url" [target]="links.target" [title]="links.name">{{links.name}}</a>
+	</li>
+</ul>
