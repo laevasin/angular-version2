@@ -9,6 +9,7 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { LinksComponent } from './links/links.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProductAlertComponent } from './product-alert/product-alert.component';
+import { ButtonLinkComponent } from './button-link/button-link.component';
 
 @NgModule({
   imports: [
@@ -24,7 +25,8 @@ import { ProductAlertComponent } from './product-alert/product-alert.component';
     ProductListComponent,
     LinksComponent,
     FooterComponent,
-    ProductAlertComponent
+    ProductAlertComponent,
+    ButtonLinkComponent
   ],
   bootstrap: [ AppComponent ]
 })
